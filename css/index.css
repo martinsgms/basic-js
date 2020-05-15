@@ -149,3 +149,15 @@ button[disabled=disabled], button:disabled {
 .sobrePeso-indicator {
 	background-color: orange;
 }
+
+.error-indicator {
+	background-color: yellow;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
