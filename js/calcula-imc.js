@@ -1,10 +1,10 @@
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Sistema Nutrição";
+pacientes = document.querySelectorAll(".paciente");
 
 calculaTodosImc();
 
 function calculaTodosImc() {
-    pacientes = document.querySelectorAll(".paciente");
 
     for (i = 0; i < pacientes.length; i++){
         const paciente = pacientes[i];
