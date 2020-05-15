@@ -161,3 +161,8 @@ button[disabled=disabled], button:disabled {
 .success {
 	color: green;
 }
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
