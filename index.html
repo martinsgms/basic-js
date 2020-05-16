@@ -18,8 +18,6 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
-
-				
 					
 					<form method="POST" id="form-adiciona">
 						<div>
@@ -40,8 +38,15 @@
 							<input id="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
 						</div>
 						<br>
+
 						<ul id="messages"></ul>
-						<button id="adicionar" class="botao bto-principal">Adicionar</button>
+
+						<div class="grupo">
+							<button id="adicionar" class="botao bto-principal">Adicionar</button>
+						</div>
+						<div class="grupo">
+							<button id="importar" class="botao bto-principal">Importar</button>
+						</div>
 					</form>
 					
 				<div class="filtro">
@@ -61,7 +66,7 @@
 					</thead>
 					<tbody id="tabela-pacientes">
 						<tr class="paciente" >
-							<td class="info-nome">josé</td>
+							<td class="info-nome">José</td>
 							<td class="info-peso">100</td>
 							<td class="info-altura">1.33</td>
 							<td class="info-gordura">10</td>
@@ -131,6 +136,7 @@
 		<script src="js/form.js"></script>
 		<script src="js/remover-paciente.js"></script>
 		<script src="js/filtro.js"></script>
+		<script src="js/importar.js"></script>
 
 	</body>
 </html>
