@@ -70,7 +70,7 @@ function generateField(data, clazz) {
 function validatePaciente(paciente) {
     var errors = [];
 
-    if (paciente.nome.length == 0 || paciente.nome.match("\\s+") != null)
+    if (paciente.nome.length == 0 || paciente.nome.match("\\s{2,}") != null)
         errors.push("Preencha o campo Nome");
 
     if (paciente.peso.length == 0 || paciente.peso.match("\\s+") != null)
